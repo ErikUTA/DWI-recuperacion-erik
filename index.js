@@ -1,4 +1,4 @@
-// All changes
+// All changes in main
 // map - The map function allows us to iterate an array and then modify its elements through a function called callback.
 // use case: increase employee salaries by $1,000
 
@@ -62,7 +62,7 @@ calculateSides(10);
 var myPromise = new Promise(function(resolve, reject) {
     setTimeout(function() {
       resolve('La informacion se ha obtenido correctamete');
-    }, 3000);
+    }, 1000);
 });
 
 myPromise.then(function(value) {
