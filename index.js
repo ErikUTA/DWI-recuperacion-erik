@@ -37,3 +37,10 @@ const names = ["Juan", "Fernanda", "Erik", "Eduardo"];
 const index = names.findIndex(i => i === "Erik");
 console.log(index);
 console.log(names[index]);
+
+// replace - The replace function works to replace with a specified value the first element that matches the added data with a specified value.
+// use case: Modify an employee's name.
+
+const string = "Juan, Fernanda, Erik, Eduardo";
+const result = string.replace('Erik', 'Torres');
+console.log(result);
