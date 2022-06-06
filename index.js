@@ -62,7 +62,7 @@ calculateSides(10);
 var myPromise = new Promise(function(resolve, reject) {
     setTimeout(function() {
       resolve('La informacion se ha obtenido correctamete');
-    }, 1000);
+    }, 1500);
 });
 
 myPromise.then(function(value) {
