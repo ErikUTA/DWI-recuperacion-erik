@@ -1,3 +1,4 @@
+// All changes
 // map - The map function allows us to iterate an array and then modify its elements through a function called callback.
 // use case: increase employee salaries by $1,000
 
